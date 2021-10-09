@@ -5,8 +5,11 @@
   --secondary-text-color: #757575;
   --header-text-color: #757575;
   --header-text-color-link: #212121;
-  --h1-text-color: #ffffff;
+  --nav-text-color: #ffffff;
   --accent-color: #2196f3;
+  --portfolio-text-color: #212121;
+  --web-color: #2196f3;
+  --studio-color: #000000;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -17,10 +20,48 @@ body {
 .link {
   text-decoration: none;
 }
+.web {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--web-color);
+}
+.studio {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--studio-color);
+}
 .menu-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-text-color-link);
+}
+.header-adress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-text-color);
+}
+.portfolio-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--portfolio-text-color);
+}
+.portfolio-all {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--nav-text-color);
+  background-color: var(--accent-color);
 }
