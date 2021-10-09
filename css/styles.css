@@ -20,6 +20,7 @@ body {
 .btn:hover,
 .btn:focus {
   color: #2196f3;
+  cursor: pointer;
 }
 .list {
   list-style: none;
@@ -77,15 +78,9 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  color: var(--header-text-color-link);
 }
-.portfolio-all {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  color: var(--nav-text-color);
-  background-color: var(--accent-color);
-}
+
 /* body section */
 .h3-text {
   font-weight: 700;
