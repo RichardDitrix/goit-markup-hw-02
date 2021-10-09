@@ -27,6 +27,7 @@ body {
 .link {
   text-decoration: none;
 }
+/* Header */
 .web {
   font-family: Raleway;
   font-weight: 700;
@@ -35,18 +36,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--web-color);
 }
-.hidden-section {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
+
 .studio {
   font-family: Raleway;
   font-weight: 700;
@@ -69,6 +59,19 @@ body {
   letter-spacing: 0.02em;
   color: var(--header-text-color);
 }
+/* btn section */
+.hidden-section {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .portfolio-nav {
   font-weight: 500;
   font-size: 16px;
@@ -83,6 +86,7 @@ body {
   color: var(--nav-text-color);
   background-color: var(--accent-color);
 }
+/* body section */
 .h3-text {
   font-weight: 700;
   font-size: 18px;
@@ -95,6 +99,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+/* footer */
 .footer {
   font-size: 14px;
   line-height: 1.71;
