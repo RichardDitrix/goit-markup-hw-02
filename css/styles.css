@@ -1,3 +1,8 @@
+/* Variables */
+:root {
+--primary-blue: #4D5AE5;
+}
+/* Base styles */
 body {
 	font-family: "Roboto", Raleway;
 	color: #434455;
@@ -7,6 +12,12 @@ ul {
 }
 address {
 	font-style: normal;}
+a {
+		text-decoration: none;
+		color: currentColor;
+	}
+	/* components-style */
+
 .link {
 	text-decoration: none;
 }
@@ -26,6 +37,9 @@ address {
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
+ }
+ .btn-color:hover {
+	color:red;
  }
 /*	HEADER */
 
