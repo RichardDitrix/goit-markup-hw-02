@@ -5,9 +5,15 @@ body {
 ul {
 	list-style: none;
 }
+address {
+	font-style: normal;}
 .link {
 	text-decoration: none;
 }
+.list {
+	list-style-type: none;
+}
+
 .visually-hidden {
 	position: absolute;
 	width: 1px;
