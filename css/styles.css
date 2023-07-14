@@ -1,13 +1,24 @@
 /* Variables */
 :root {
 --primary-blue: #4D5AE5;
+--pressed-blue: #404BBF;
+--overlay-dark:#2E2F42;
+--success-message:#31D0AA;
+--main-text:#434455;
+--secondary-text:#8E8F99;
+--accent-color:#E7E9FC;
+--background-lite:#F4F4FD;
+/* --modal-overlay:NAVY BLUE modal; */
+--hero-background:#2E2F42;
+--white-background:#FFFFFF;
+--modal-background:#FCFCFC;
 }
 /* Base styles */
 body {
 	font-family: "Roboto", Raleway;
-	color: #434455;
+	color: var(--main-text);
 }
-ul {
+.list {
 	list-style: none;
 }
 address {
@@ -17,14 +28,19 @@ a {
 		color: currentColor;
 	}
 	/* components-style */
-
+.btn {
+	background-color: var(--accent-color);
+	color: var(--primary-blue);
+	border: 1px solid var(--accent-color);
+}
+.btn:hover,
+.btn:focus {
+	background-color: var(--primary-blue);
+	color: var(--white-background);
+	}
 .link {
 	text-decoration: none;
 }
-.list {
-	list-style-type: none;
-}
-
 .visually-hidden {
 	position: absolute;
 	width: 1px;
@@ -38,11 +54,55 @@ a {
 	clip: rect(0 0 0 0);
 	overflow: hidden;
  }
- .btn-color:hover {
-	color:red;
- }
+ 
 /*	HEADER */
-
+.web-web {
+color: var(--primary-blue);
+font-family: Raleway;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0,03em;
+text-transform: uppercase;
+}
+.web-studio {
+color: var(--overlay-dark);
+font-family: Raleway;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0,03em;
+text-transform: uppercase;
+}
+.header-nav {
+	color:var(--overlay-dark);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1,5; 
+	letter-spacing: 0.02em;
+}
+.adress {
+color: var(--main-text);
+font-size: 16px;
+font-weight: 400;
+line-height: 1,5; 
+letter-spacing: 0.02em;
+}
+.link-contacts:hover{
+	color: var(--primary-blue);
+}
+.link-contacts:focus {
+	color: var(--primary-blue);
+}
 /*	BODY */
-
+.heero {
+	background-color: var(--hero-background);
+}
+.heero-text {
+	color: var(--white-background);
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1,07;
+	letter-spacing: 0,02em;
+}
 /*	FOOTER */
