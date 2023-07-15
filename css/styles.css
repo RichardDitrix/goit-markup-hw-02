@@ -16,6 +16,7 @@
 body {
 	font-family: "Roboto", sans-serif;
 	color: var(--main-text);
+	background-color: var(--white-background);
 }
 
 
@@ -30,7 +31,6 @@ a {
 .btn {
 	background-color: var(--accent-color);
 	color: var(--primary-blue);
-	border: 1px solid var(--accent-color);
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 1.5;
@@ -42,6 +42,11 @@ a {
 	background-color: var(--primary-blue);
 	color: var(--white-background);
 	}
+.btn-adress:hover,
+.btn-adress:focus {
+	color: var(--pressed-blue);
+
+}
 .list {
 list-style: none;
 }
@@ -62,23 +67,18 @@ list-style: none;
  }
  
 /*	HEADER */
-.web-web {
+.web {
 color: var(--primary-blue);
-font-family: Raleway;
+font-family: "Raleway"sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+
 .web-studio {
 color: var(--overlay-dark);
-font-family: Raleway;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-text-transform: uppercase;
 }
 
 .header-nav {
@@ -95,22 +95,31 @@ font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
-.link-contacts:hover{
-	color: var(--primary-blue);
-}
-.link-contacts:focus {
-	color: var(--primary-blue);
-}
+
 /*	BODY */
 .heero {
 	background-color: var(--hero-background);
 }
 .heero-text {
 	color: var(--white-background);
+	text-align: center;
 	font-size: 56px;
 	font-weight: 700;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
+}
+.btn-heero {
+	background-color: var(--primary-blue);
+	color: var(--white-background);
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+}
+.btn-heero:hover,
+.btn-heero:focus {
+	background-color: var(--pressed-blue);
 }
 .description {
 	background-color: var(--white-background);
@@ -124,6 +133,8 @@ letter-spacing: 0.02em;
 }
 .description-secondary {
 text-shadow: rgba(0, 0, 0, 0.25);
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .presentation {
 	color: var(--hero-background);
@@ -133,8 +144,28 @@ text-shadow: rgba(0, 0, 0, 0.25);
 	letter-spacing: 0.02em;
 
 }
+.products {
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+}
 .team {
 	background-color: var(--background-lite);
+}
+.team-list {
+	background-color: var(--white-background);
+}
+.team-our {
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: var(--overlay-dark);
+
+
 }
 .team-names {
 	color: var(--hero-background);
@@ -170,6 +201,15 @@ text-shadow: rgba(0, 0, 0, 0.25);
 	font-weight: 400;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+}
+.web-footer {
+color: var(--primary-blue);
+font-family: "Raleway"sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 .web-studio-footer {
 	color: var(--background-lite);
