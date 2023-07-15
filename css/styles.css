@@ -57,7 +57,7 @@ list-style: none;
 /*	HEADER */
 .web {
 color: var(--primary-blue);
-font-family: "Raleway"sans-serif;
+font-family: "Raleway",sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
