@@ -116,6 +116,7 @@ letter-spacing: 0.02em;
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
+	cursor: pointer;
 }
 .btn-heero:hover,
 .btn-heero:focus {
@@ -204,7 +205,7 @@ letter-spacing: 0.02em;
 }
 .web-footer {
 color: var(--primary-blue);
-font-family: "Raleway"sans-serif;
+font-family: "Raleway",sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
