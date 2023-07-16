@@ -41,6 +41,12 @@ a {
 	background-color: var(--pressed-blue);
 	color: var(--white-background);
 	}
+.btn-adress {
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+}
 .btn-adress:hover,
 .btn-adress:focus {
 	color: var(--pressed-blue);
