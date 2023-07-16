@@ -69,6 +69,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
+	
+
 .web-studio {
 color: var(--overlay-dark);
 }
@@ -80,6 +82,11 @@ color: var(--overlay-dark);
 	line-height: 1.5; 
 	letter-spacing: 0.02em;
 }
+.header-nav:hover,
+.header-nav:focus {
+	color: var(--pressed-blue);
+}
+
 .adress {
 color: var(--main-text);
 font-size: 16px;
