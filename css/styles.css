@@ -18,8 +18,6 @@ body {
 	color: var(--main-text);
 	background-color: var(--white-background);
 }
-
-
 address {
 	font-style: normal;
 }
@@ -46,7 +44,6 @@ a {
 .btn-adress:hover,
 .btn-adress:focus {
 	color: var(--pressed-blue);
-
 }
 .list {
 list-style: none;
